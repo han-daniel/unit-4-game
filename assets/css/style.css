@@ -1,0 +1,122 @@
+html, 
+body{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: url("https://www.westelm.com/weimgs/ab/images/wcm/products/201824/0381/img62o.jpg");
+}
+
+#header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 28px;
+    padding: 2px;
+    text-align: center;
+}
+
+#headerBox {
+    float: middle;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(218, 161, 161);
+}
+
+ul {
+    margin-top: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: goldenrod;
+    padding: 10px 10px 10px 10px;
+}
+
+.instructions {
+    list-style-type: none;
+    line-height: 2;
+}
+
+#number {
+    background-color:coral;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+}
+
+#record {
+    background-color: rgb(85, 47, 47);
+    height: 100px;
+    width:250px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px 10px 5px 5px;
+    position: relative;
+}
+
+.btn1 {
+    background: transparent;
+    background-image: url("../images/red.gem.png");
+    background-position: center;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+}
+
+.btn2 { 
+    background: transparent;
+    background-image: url("../images/blue.gem.png");
+    background-position: center;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+}
+
+.btn3 {
+    background: transparent;
+    background-image: url("../images/orange.gem.png");
+    background-position: center;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+}
+   
+.btn4 {
+    background: transparent;
+    background-image: url("../images/teal.gem.png");
+    background-position: center;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+}
+
+button {
+    border: 0;
+}
+
+#total {
+    clear: both;
+    padding: 10px 0 10px 10px;   
+}
+
+#score {
+    clear: both;
+    height: 100px;
+    text-align: center;
+    padding: 20px;  
+}
+
+#total,
+#score {
+    width:250px;
+    background-color:salmon;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
